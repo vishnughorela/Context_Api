@@ -1,0 +1,82 @@
+.maindiv {
+  padding: 2rem;
+  /* background-color: #f0f4f8;  */
+  background-color: #788088; 
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #f3f6f9; /* dark blue color */
+}
+
+.maintable {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff; /* white background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* medium shadow */
+  border-radius: 0.5rem; /* rounded corners */
+}
+
+.maintable th,
+.maintable td {
+  padding: 1rem;
+  border: 2px solid #d1d9e0; /* light gray-blue borders */
+  text-align: center;
+}
+
+.maintable th {
+  background-color: #34495e; /* dark blue-gray background for headers */
+  color: #ecf0f1; /* light text color for headers */
+}
+
+.maintable tr:nth-child(even) {
+  background-color: #ecf0f1; /* light gray background for even rows */
+}
+
+.maintable tr:nth-child(odd) {
+  background-color: #f9fafb; /* slightly lighter background for odd rows */
+}
+
+.product-image {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover; /* ensures the image covers the set dimensions without distorting */
+}
+
+.price {
+  color: #e74c3c; /* red color for prices */
+}
+
+.stock {
+  color: #27ae60; /* green color for stock */
+}
+
+.maintable td {
+  background-color: #ffffff; /* white background for table cells */
+}
+
+.maintable td:nth-child(1) {
+  background-color: #e3f2fd; /* light blue background for image cells */
+}
+
+.maintable td:nth-child(2) {
+  background-color: #ffebee; /* light red background for title cells */
+}
+
+.maintable td:nth-child(3) {
+  background-color: #e8f5e9; /* light green background for price cells */
+}
+
+.maintable td:nth-child(4) {
+  background-color: #fff3e0; /* light orange background for stock cells */
+}
+
+.maintable td:nth-child(5) {
+  background-color: #ede7f6; /* light purple background for description cells */
+}
+
+.maintable td:nth-child(6) {
+  background-color: #f3e5f5; /* light pink background for category cells */
+}
